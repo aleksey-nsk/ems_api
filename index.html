@@ -1,0 +1,49 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<title>EMS API</title>
+		<meta charset="utf-8"> 		
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<script type="text/javascript" src="js/jquery-3.1.0.min.js"> </script> 
+		<script type="text/javascript" src="js/script.js"> </script> 		
+	</head> 	  
+	<body>
+		<div id="main_container">
+			<div id="header">
+				<img src="pic/logo.png">
+			</div> 
+			
+			<div id="content">
+				<div class="element">								
+					<span>Откуда</span>
+					<select id="from"></select>  
+				</div>	
+
+				<div class="element">
+					<span>Куда</span>
+					<select id="to"></select> 
+				</div>		
+
+				<div class="element"> 
+					<span>Максимальный вес(кг)</span>
+					<div id="max_weight"></div> 	
+				</div>	
+
+				<div class="element">
+					<span>Вес(кг)</span>					
+					<input type="text" id="weight"> 
+				</div>				
+				
+				<button id="count">Рассчитать</button> 			  				
+			
+				<div id="result"></div> 		
+			</div> <!-- /content -->
+
+			<div id="footer">
+				<div class="ref">Ссылки:</div>
+				<div class="ref"><a href="http://www.emspost.ru/ru/corp_clients/dogovor_docements/api/" target="_blank">EMS API</a></div>
+				<div class="ref"><a href="https://github.com/aleksey-nsk" target="_blank">GitHub</a></div>
+			</div>
+		</div> <!-- /main_container -->
+	</body> 
+</html>
